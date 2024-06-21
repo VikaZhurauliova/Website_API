@@ -1,0 +1,14 @@
+php artisan migrate
+php artisan import:market-fill_users_table
+php artisan import:market-fill_brands_table
+php artisan import:market-fill_news_table
+php artisan import:market-fill_products_table
+php artisan import:market-fill_pages_table
+
+php artisan import:market-update_products_table
+
+php artisan import:make_all_photos_for_gallery_market
+php artisan import:make_missing_photos_for_gallery
+php artisan import:market-delete_sale_products_category
+php artisan import:market_fill_product_categories
+
